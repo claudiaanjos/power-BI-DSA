@@ -1,6 +1,6 @@
 # Laboratório Prático 1
 
-## Dashboard Analítico de Vendas Globais
+## Análise de Vendas Globais
 
 No Lab 1 vamos construir nosso primeiro Dashboard do curso. Vamos trabalhar com
 dados de vendas de uma empresa fictícia que comercializa produtos em todos os cantos do
