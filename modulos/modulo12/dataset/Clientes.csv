@@ -1,0 +1,503 @@
+ID_Cliente,Idade,Peso,Altura,Estado Civil,Cidade,Estado,Limite de Crédito,Taxa de Desconto,Tipo de Cliente
+1,34,98,184,Casado,São Paulo,RS,581,6,Diamante
+2,28,105,184,Casado,São Paulo,RJ,4537,4,Ouro
+3,,44,178,Divorciado,São Paulo,RJ,2977,5,Prata
+4,33,84,164,Divorciado,São Paulo,SP,7462,3,Prata
+5,56,,189,Divorciado,Rio de Janeiro,RJ,3766,3,Bronze
+6,28,80,173,Casado,Rio de Janeiro,SP,8173,5,Ouro
+7,53,74,177,Casado,Belo Horizonte,MG,4020,5,Prata
+8,32,,179,Solteiro,Porto Alegre,MG,4534,2,Ouro
+9,18,91,185,Casado,Rio de Janeiro,RS,4956,6,Bronze
+10,38,47,270,Casado,Belo Horizonte,RJ,6102,4,Prata
+11,45,91,174,Divorciado,Rio de Janeiro,RJ,4932,4,Ouro
+12,32,,157,Casado,São Paulo,RS,4900,5,Prata
+13,56,55,182,Viúvo,Rio de Janeiro,SP,6373,5,Bronze
+14,40,83,185,Casado,Rio de Janeiro,SP,4493,3,Bronze
+15,,102,183,Casado,Porto Alegre,RJ,6804,4,Bronze
+16,39,,187,Viúvo,São Paulo,RS,3263,4,Ouro
+17,46,68,204,Divorciado,Rio de Janeiro,RJ,6821,6,Ouro
+18,29,48,278,Viúvo,Belo Horizonte,RJ,4915,5,Prata
+19,43,78,278,Divorciado,Belo Horizonte,SP,3692,4,Bronze
+20,,78,165,Divorciado,São Paulo,RS,2448,7,Ouro
+21,39,57,163,Divorciado,Rio de Janeiro,RJ,7245,4,Diamante
+22,40,75,193,Solteiro,Belo Horizonte,RJ,5451,2,Bronze
+23,,72,167,Viúvo,Belo Horizonte,MG,6624,3,Bronze
+24,27,65,177,Divorciado,Porto Alegre,SP,5469,5,Prata
+25,37,60,171,Solteiro,Belo Horizonte,SP,5380,4,Diamante
+26,35,58,185,Casado,Rio de Janeiro,RS,5350,6,Ouro
+27,41,81,172,Divorciado,Rio de Janeiro,RJ,7612,5,Diamante
+28,53,101,180,Casado,Rio de Janeiro,RJ,1683,3,Ouro
+29,26,68,169,Solteiro,São Paulo,RJ,6843,4,Ouro
+30,27,46,184,Solteiro,Belo Horizonte,MG,5469,4,Ouro
+31,39,53,172,Divorciado,Porto Alegre,SP,3494,5,Diamante
+32,22,67,179,Viúvo,Belo Horizonte,RJ,6891,3,Diamante
+33,24,46,185,Divorciado,Porto Alegre,RJ,3603,5,Prata
+34,36,101,173,Solteiro,São Paulo,RS,5871,4,Bronze
+35,31,75,174,Viúvo,Belo Horizonte,RS,6437,10,Bronze
+36,26,71,169,Solteiro,Rio de Janeiro,RJ,7347,4,Diamante
+37,20,81,178,Solteiro,Belo Horizonte,RJ,5765,1,Prata
+38,52,68,185,Solteiro,Porto Alegre,MG,6705,1,Diamante
+39,32,77,179,Casado,Belo Horizonte,RS,7404,3,Diamante
+40,49,73,152,Solteiro,São Paulo,MG,4496,6,Prata
+41,45,62,172,Solteiro,Porto Alegre,MG,4037,5,Bronze
+42,32,101,157,Divorciado,Belo Horizonte,RS,2343,2,Diamante
+43,44,79,169,Solteiro,Rio de Janeiro,MG,3269,4,Bronze
+44,44,88,165,Solteiro,São Paulo,RS,7435,8,Ouro
+45,24,58,169,Solteiro,São Paulo,RJ,5745,2,Bronze
+46,40,42,187,Viúvo,São Paulo,SP,3439,1,Bronze
+46,40,42,187,Viúvo,São Paulo,SP,3439,1,Bronze
+47,27,59,181,Viúvo,Porto Alegre,MG,6385,3,Ouro
+48,56,65,163,Viúvo,São Paulo,RS,4131,3,Prata
+49,40,41,172,Solteiro,Porto Alegre,SP,6566,5,Bronze
+50,23,62,177,Solteiro,Rio de Janeiro,SP,4086,6,Prata
+51,38,87,168,Divorciado,São Paulo,RS,1059,5,Prata
+52,34,47,185,Solteiro,Rio de Janeiro,RS,4049,6,Prata
+53,14,72,183,Viúvo,São Paulo,RS,8053,7,Bronze
+54,36,63,178,Solteiro,Porto Alegre,RJ,8869,7,Diamante
+55,38,28,179,Divorciado,Belo Horizonte,MG,6894,7,Diamante
+55,38,28,179,Divorciado,Belo Horizonte,MG,6894,7,Diamante
+56,27,70,170,Divorciado,Rio de Janeiro,RS,4483,4,Diamante
+57,33,74,161,Divorciado,Belo Horizonte,MG,4876,3,Diamante
+58,55,54,182,Divorciado,Porto Alegre,RS,7845,3,Ouro
+59,27,88,163,Divorciado,Porto Alegre,MG,1384,8,Ouro
+60,19,62,166,Casado,Porto Alegre,RS,6949,3,Bronze
+61,46,29,179,Viúvo,São Paulo,RJ,4683,6,Bronze
+62,41,79,169,Casado,Belo Horizonte,MG,7055,5,Prata
+63,41,87,178,Divorciado,Rio de Janeiro,RS,6944,7,Ouro
+64,53,69,172,Solteiro,Porto Alegre,RS,4878,5,Diamante
+65,24,92,178,Viúvo,Rio de Janeiro,RS,2096,5,Diamante
+66,34,78,173,Viúvo,Belo Horizonte,RJ,3706,2,Prata
+67,42,98,192,Solteiro,Rio de Janeiro,MG,5502,4,Prata
+68,22,84,186,Solteiro,Rio de Janeiro,RS,4967,5,Ouro
+69,49,76,172,Viúvo,Porto Alegre,RJ,3650,6,Diamante
+70,55,53,151,Casado,São Paulo,RS,8868,8,Diamante
+71,31,97,168,Casado,Rio de Janeiro,RJ,6574,8,Prata
+72,54,77,179,Viúvo,Porto Alegre,SP,8095,3,Ouro
+73,41,69,182,Solteiro,São Paulo,RS,8403,8,Bronze
+74,43,66,170,Casado,Belo Horizonte,SP,1830,7,Ouro
+75,44,59,167,Solteiro,São Paulo,MG,1148,6,Prata
+76,42,82,184,Casado,Belo Horizonte,RS,5248,6,Bronze
+77,35,57,161,Divorciado,Rio de Janeiro,SP,3902,7,Bronze
+78,27,61,172,Solteiro,Rio de Janeiro,RS,8171,5,Ouro
+79,67,83,185,Divorciado,Belo Horizonte,SP,335,5,Bronze
+80,40,67,163,Casado,São Paulo,MG,4567,3,Prata
+81,39,79,178,Viúvo,Rio de Janeiro,SP,4308,2,Diamante
+82,29,75,181,Divorciado,Rio de Janeiro,RS,1735,5,Diamante
+83,40,52,184,Solteiro,Porto Alegre,SP,5369,4,Bronze
+84,47,65,178,Casado,Rio de Janeiro,RS,6945,4,Ouro
+85,41,72,172,Solteiro,Belo Horizonte,RJ,5864,5,Prata
+86,43,76,152,Solteiro,Porto Alegre,SP,3975,6,Ouro
+87,33,89,183,Divorciado,Porto Alegre,SP,4692,5,Bronze
+88,46,85,179,Solteiro,São Paulo,RS,8749,5,Ouro
+89,20,65,185,Solteiro,Porto Alegre,RS,5223,5,Diamante
+90,31,72,169,Divorciado,Rio de Janeiro,RJ,2312,6,Bronze
+91,50,85,185,Viúvo,Belo Horizonte,SP,408,6,Prata
+92,45,75,174,Casado,Porto Alegre,SP,4019,4,Ouro
+93,39,45,185,Solteiro,Porto Alegre,SP,3090,3,Ouro
+94,41,52,165,Viúvo,Rio de Janeiro,MG,3654,7,Ouro
+95,38,82,169,Casado,Porto Alegre,MG,1050,3,Bronze
+96,29,87,169,Solteiro,São Paulo,RJ,6812,4,Diamante
+97,58,76,179,Solteiro,Rio de Janeiro,RJ,3266,7,Diamante
+98,32,79,164,Solteiro,Porto Alegre,RS,4187,4,Prata
+99,45,101,163,Divorciado,Belo Horizonte,RS,3115,8,Prata
+100,20,64,164,Viúvo,Rio de Janeiro,RJ,2264,3,Diamante
+101,47,45,174,Solteiro,Rio de Janeiro,RS,8431,6,Prata
+102,31,79,163,Viúvo,Porto Alegre,SP,3649,4,Ouro
+103,36,74,173,Viúvo,Rio de Janeiro,RS,6942,6,Prata
+104,40,51,170,Casado,Belo Horizonte,RS,8314,2,Diamante
+105,38,76,161,Divorciado,Belo Horizonte,RJ,3301,7,Prata
+106,61,59,184,Viúvo,Rio de Janeiro,SP,2865,4,Diamante
+107,51,78,172,Solteiro,São Paulo,MG,2178,4,Ouro
+108,57,83,183,Casado,Porto Alegre,MG,4697,5,Bronze
+109,62,98,164,Solteiro,Porto Alegre,SP,6009,1,Bronze
+110,55,73,169,Casado,Rio de Janeiro,SP,8341,2,Diamante
+111,44,44,178,Casado,Porto Alegre,RS,4209,5,Diamante
+112,42,63,182,Viúvo,Belo Horizonte,RJ,3288,8,Ouro
+113,42,66,185,Casado,Belo Horizonte,RJ,5512,7,Prata
+114,23,47,185,Casado,Porto Alegre,RS,5122,7,Ouro
+115,33,72,166,Viúvo,Belo Horizonte,RS,5577,4,Ouro
+116,28,66,167,Casado,Belo Horizonte,MG,4846,6,Diamante
+117,47,65,174,Solteiro,Porto Alegre,RS,5099,7,Ouro
+118,31,74,178,Viúvo,Belo Horizonte,RJ,5411,6,Bronze
+119,39,65,185,Divorciado,São Paulo,RS,6011,7,Prata
+120,36,64,184,Solteiro,Rio de Janeiro,MG,2238,6,Prata
+121,33,69,174,Divorciado,Porto Alegre,RS,2672,6,Diamante
+122,19,65,193,Divorciado,Rio de Janeiro,MG,7017,4,Diamante
+123,35,68,185,Divorciado,Porto Alegre,RS,7635,6,Ouro
+124,35,43,185,Divorciado,Porto Alegre,SP,3382,5,Prata
+125,55,43,163,Viúvo,Rio de Janeiro,RS,6990,3,Bronze
+126,30,68,163,Casado,São Paulo,RJ,4552,4,Prata
+127,35,69,174,Divorciado,São Paulo,SP,6178,4,Prata
+128,48,85,161,Divorciado,São Paulo,SP,5288,4,Diamante
+129,38,55,185,Divorciado,São Paulo,RS,7202,2,Prata
+130,57,94,170,Casado,Porto Alegre,RJ,6037,5,Ouro
+131,44,61,159,Viúvo,São Paulo,SP,5981,7,Bronze
+132,46,89,172,Divorciado,Belo Horizonte,SP,5635,5,Bronze
+133,33,80,185,Solteiro,Porto Alegre,SP,4099,5,Prata
+134,48,73,180,Divorciado,Belo Horizonte,MG,4342,7,Bronze
+135,29,45,165,Viúvo,Belo Horizonte,RJ,4552,7,Prata
+136,36,61,168,Viúvo,São Paulo,SP,5059,6,Prata
+137,46,76,163,Divorciado,Rio de Janeiro,SP,4998,1,Prata
+138,47,64,172,Viúvo,Belo Horizonte,SP,4907,3,Prata
+139,39,89,160,Casado,Porto Alegre,SP,5758,5,Prata
+140,46,82,185,Divorciado,Porto Alegre,MG,6559,6,Bronze
+141,46,71,178,Solteiro,São Paulo,RS,3653,10,Bronze
+142,38,69,165,Casado,Belo Horizonte,RJ,2600,7,Prata
+143,46,63,164,Solteiro,Belo Horizonte,RS,6789,4,Ouro
+144,39,68,161,Divorciado,Porto Alegre,SP,5709,3,Bronze
+145,29,66,167,Viúvo,Belo Horizonte,RJ,5202,7,Ouro
+146,51,59,167,Divorciado,São Paulo,MG,8892,9,Diamante
+147,25,83,167,Solteiro,Porto Alegre,RS,5351,7,Prata
+148,45,67,178,Solteiro,Porto Alegre,SP,5057,5,Diamante
+149,39,78,165,Casado,São Paulo,RJ,8040,1,Diamante
+150,31,69,181,Viúvo,São Paulo,RS,6292,5,Prata
+151,45,86,179,Solteiro,Rio de Janeiro,RS,4202,4,Prata
+152,46,112,183,Solteiro,São Paulo,SP,7071,6,Ouro
+153,61,69,169,Viúvo,Belo Horizonte,MG,10301,4,Prata
+154,36,81,177,Divorciado,São Paulo,RJ,5599,2,Bronze
+178,39,85,167,Divorciado,São Paulo,SP,9304,8,Prata
+156,27,85,178,Casado,Belo Horizonte,RJ,2411,4,Ouro
+157,48,63,161,Viúvo,São Paulo,RS,4903,4,Prata
+178,49,66,188,Casado,Belo Horizonte,RJ,6272,6,Prata
+159,40,72,185,Casado,Belo Horizonte,RJ,4091,7,Ouro
+160,46,52,186,Solteiro,São Paulo,RS,4971,10,Prata
+161,34,75,172,Solteiro,Rio de Janeiro,RS,6292,1,Prata
+185,27,71,171,Solteiro,Belo Horizonte,MG,3736,6,Ouro
+163,42,97,168,Casado,Rio de Janeiro,RJ,4041,9,Bronze
+164,60,53,177,Divorciado,Rio de Janeiro,MG,5990,3,Prata
+165,36,68,183,Solteiro,Rio de Janeiro,SP,3187,6,Ouro
+166,43,50,183,Casado,Belo Horizonte,RS,6613,4,Prata
+167,37,85,165,Viúvo,São Paulo,MG,4407,7,Diamante
+168,54,62,178,Divorciado,São Paulo,RJ,4693,3,Diamante
+169,43,80,169,Solteiro,Belo Horizonte,MG,4241,7,Bronze
+170,57,79,163,Viúvo,Rio de Janeiro,RS,4781,5,Prata
+171,54,74,186,Solteiro,Belo Horizonte,MG,6729,6,Diamante
+172,53,65,176,Casado,Porto Alegre,RJ,8251,3,Ouro
+173,59,76,172,Divorciado,São Paulo,RJ,6464,6,Diamante
+174,41,68,185,Divorciado,São Paulo,RJ,3552,3,Diamante
+185,29,71,170,Casado,Belo Horizonte,RS,6634,4,Ouro
+176,42,59,181,Divorciado,Porto Alegre,SP,7820,4,Prata
+177,47,68,185,Divorciado,Porto Alegre,RS,3004,3,Bronze
+178,61,71,160,Divorciado,Porto Alegre,MG,2063,6,Bronze
+179,46,75,171,Viúvo,Porto Alegre,SP,4806,0,Bronze
+180,47,73,165,Viúvo,Porto Alegre,RJ,4683,4,Ouro
+181,34,51,172,Viúvo,Belo Horizonte,MG,4438,9,Diamante
+182,51,61,174,Solteiro,São Paulo,SP,3208,3,Bronze
+183,46,75,167,Viúvo,Belo Horizonte,RJ,4725,8,Bronze
+184,57,44,156,Viúvo,São Paulo,RJ,5560,6,Ouro
+185,23,75,178,Viúvo,Belo Horizonte,SP,5454,8,Diamante
+186,51,69,178,Casado,Belo Horizonte,SP,6590,6,Bronze
+187,49,103,147,Viúvo,Rio de Janeiro,SP,3901,7,Diamante
+188,19,59,166,Casado,Belo Horizonte,RJ,3545,8,Diamante
+189,50,95,167,Solteiro,Rio de Janeiro,SP,4198,5,Ouro
+190,48,73,176,Viúvo,Porto Alegre,RS,6241,5,Ouro
+191,36,61,165,Solteiro,Rio de Janeiro,RS,6287,5,Bronze
+192,29,63,185,Solteiro,Belo Horizonte,RJ,6273,6,Diamante
+193,37,38,185,Casado,Belo Horizonte,SP,2997,4,Ouro
+194,41,80,170,Viúvo,Belo Horizonte,MG,2843,5,Bronze
+195,33,82,179,Casado,Rio de Janeiro,RJ,9016,1,Prata
+196,48,98,178,Solteiro,Belo Horizonte,RS,6959,6,Ouro
+197,44,70,163,Casado,Porto Alegre,RS,8931,4,Diamante
+198,40,86,171,Casado,Porto Alegre,RJ,1884,3,Bronze
+199,48,76,165,Divorciado,Belo Horizonte,RS,6262,8,Prata
+200,42,36,168,Casado,Porto Alegre,RJ,5140,4,Prata
+201,43,61,156,Viúvo,Belo Horizonte,RS,6380,2,Prata
+202,25,47,184,Solteiro,Rio de Janeiro,RJ,6804,8,Bronze
+203,54,78,185,Casado,São Paulo,SP,5344,5,Ouro
+204,50,51,178,Casado,São Paulo,SP,5727,7,Diamante
+205,50,58,178,Divorciado,Porto Alegre,SP,3219,3,Diamante
+206,46,46,179,Casado,Rio de Janeiro,RJ,5286,9,Diamante
+207,50,69,183,Casado,Rio de Janeiro,MG,4665,5,Ouro
+208,29,70,171,Viúvo,São Paulo,MG,4626,6,Prata
+209,49,64,166,Viúvo,Belo Horizonte,MG,6270,6,Prata
+210,32,83,176,Divorciado,Rio de Janeiro,MG,4890,4,Prata
+211,35,68,168,Viúvo,São Paulo,RJ,4718,1,Ouro
+212,39,89,157,Divorciado,Rio de Janeiro,RJ,4924,4,Prata
+213,38,75,171,Divorciado,São Paulo,RJ,6126,6,Bronze
+214,53,62,176,Divorciado,Rio de Janeiro,MG,4461,5,Diamante
+215,39,73,167,Solteiro,São Paulo,SP,2152,7,Ouro
+216,53,57,188,Viúvo,São Paulo,RS,6436,5,Diamante
+217,54,49,172,Divorciado,Belo Horizonte,RJ,7640,6,Prata
+218,42,91,174,Divorciado,Rio de Janeiro,RS,1490,7,Ouro
+219,58,71,178,Casado,São Paulo,RS,5135,9,Ouro
+220,51,70,170,Casado,São Paulo,RS,6129,6,Diamante
+221,27,71,164,Casado,Rio de Janeiro,MG,5243,2,Ouro
+222,35,51,170,Divorciado,São Paulo,MG,6083,1,Bronze
+223,28,76,178,Divorciado,Belo Horizonte,MG,8256,4,Bronze
+224,40,90,167,Viúvo,Belo Horizonte,SP,3709,4,Bronze
+225,39,63,176,Divorciado,Porto Alegre,RS,6462,5,Bronze
+226,38,69,165,Solteiro,Porto Alegre,SP,2017,1,Ouro
+227,45,94,180,Casado,Belo Horizonte,RJ,2711,7,Prata
+228,24,43,161,Divorciado,Belo Horizonte,RS,3220,7,Ouro
+229,59,77,161,Solteiro,São Paulo,RJ,3766,3,Diamante
+230,35,53,185,Casado,Rio de Janeiro,RS,4161,7,Diamante
+231,43,93,179,Casado,São Paulo,RJ,5556,5,Prata
+232,55,81,159,Divorciado,Porto Alegre,SP,7620,7,Ouro
+233,45,80,185,Casado,São Paulo,SP,3801,4,Prata
+234,45,86,167,Solteiro,Rio de Janeiro,MG,4694,8,Ouro
+235,33,48,174,Casado,Rio de Janeiro,RJ,4688,4,Ouro
+236,29,87,173,Viúvo,São Paulo,MG,5191,5,Diamante
+237,30,83,185,Casado,Belo Horizonte,SP,5675,3,Ouro
+238,22,49,173,Solteiro,São Paulo,MG,5808,7,Diamante
+239,39,77,159,Solteiro,Porto Alegre,MG,7513,6,Ouro
+240,27,58,167,Casado,Belo Horizonte,RS,5979,2,Ouro
+241,33,83,166,Divorciado,Rio de Janeiro,MG,4342,8,Ouro
+242,48,72,176,Solteiro,Belo Horizonte,RS,7706,9,Diamante
+243,42,47,179,Casado,Belo Horizonte,RS,6781,4,Bronze
+244,42,42,163,Viúvo,Rio de Janeiro,SP,4936,8,Ouro
+245,24,59,169,Viúvo,Porto Alegre,MG,5734,10,Prata
+246,33,70,169,Casado,Porto Alegre,RS,4778,5,Prata
+247,65,80,185,Divorciado,São Paulo,SP,6420,4,Ouro
+248,49,74,181,Divorciado,Belo Horizonte,RJ,7249,6,Bronze
+249,35,76,178,Casado,Porto Alegre,RS,1640,3,Prata
+250,30,53,169,Casado,Rio de Janeiro,MG,5300,5,Prata
+251,48,73,171,Viúvo,São Paulo,RJ,8427,7,Ouro
+252,32,80,178,Viúvo,Porto Alegre,RJ,5341,2,Prata
+253,47,88,167,Viúvo,Porto Alegre,SP,5726,2,Diamante
+254,40,81,177,Divorciado,São Paulo,RS,3925,4,Prata
+255,21,70,180,Casado,Belo Horizonte,RJ,6720,10,Prata
+256,29,55,172,Casado,Porto Alegre,RJ,2299,1,Prata
+257,33,96,167,Viúvo,São Paulo,SP,5907,4,Diamante
+258,46,91,167,Solteiro,Rio de Janeiro,RJ,3875,6,Prata
+259,35,73,181,Solteiro,Belo Horizonte,RJ,5245,9,Ouro
+260,39,93,161,Divorciado,Rio de Janeiro,MG,8434,5,Ouro
+261,40,57,180,Viúvo,Porto Alegre,RJ,2525,3,Ouro
+262,28,87,163,Casado,Belo Horizonte,RJ,6101,5,Ouro
+263,36,61,167,Casado,São Paulo,RJ,5318,2,Bronze
+264,31,60,160,Viúvo,Belo Horizonte,SP,5798,5,Bronze
+265,52,69,164,Solteiro,Belo Horizonte,RJ,4482,3,Bronze
+266,27,72,166,Divorciado,Porto Alegre,SP,7043,8,Prata
+267,50,62,150,Casado,Belo Horizonte,SP,4580,4,Bronze
+268,30,57,171,Casado,Belo Horizonte,MG,5820,4,Bronze
+269,45,61,171,Divorciado,Rio de Janeiro,RS,2512,8,Prata
+270,33,77,177,Viúvo,Porto Alegre,RS,3226,3,Prata
+271,46,56,170,Casado,Belo Horizonte,RS,2561,7,Ouro
+272,41,63,185,Solteiro,São Paulo,RJ,3392,6,Bronze
+273,37,59,169,Casado,Rio de Janeiro,MG,5035,4,Prata
+274,44,56,157,Solteiro,Rio de Janeiro,RJ,5890,5,Ouro
+275,40,90,159,Solteiro,São Paulo,SP,2595,3,Diamante
+276,45,78,180,Viúvo,Belo Horizonte,SP,3412,4,Bronze
+277,32,102,190,Solteiro,Porto Alegre,RJ,1420,5,Bronze
+278,42,91,168,Casado,Rio de Janeiro,MG,3773,5,Prata
+279,34,65,185,Solteiro,Porto Alegre,MG,6418,3,Prata
+280,31,53,164,Casado,Porto Alegre,MG,7096,7,Ouro
+281,33,70,178,Casado,Rio de Janeiro,RS,2851,5,Prata
+282,33,66,182,Viúvo,Belo Horizonte,MG,6244,6,Bronze
+283,17,55,174,Solteiro,São Paulo,MG,7259,5,Diamante
+284,30,72,161,Solteiro,São Paulo,RJ,5871,5,Prata
+285,34,56,169,Divorciado,Rio de Janeiro,RS,4437,6,Ouro
+286,39,71,180,Solteiro,São Paulo,SP,3376,5,Diamante
+287,29,90,152,Solteiro,Porto Alegre,SP,6621,4,Diamante
+288,34,57,166,Casado,Rio de Janeiro,RS,4000,5,Ouro
+289,43,95,165,Viúvo,Porto Alegre,MG,9311,2,Ouro
+290,25,70,185,Solteiro,Rio de Janeiro,RJ,2975,4,Diamante
+291,44,75,190,Viúvo,Porto Alegre,RJ,4002,8,Diamante
+292,52,48,177,Casado,Rio de Janeiro,RS,2181,7,Prata
+293,17,54,167,Viúvo,Belo Horizonte,SP,4070,7,Prata
+294,25,66,184,Viúvo,Porto Alegre,RS,3308,9,Bronze
+295,29,98,170,Casado,Porto Alegre,MG,5550,3,Bronze
+296,45,64,171,Viúvo,Belo Horizonte,MG,4539,4,Prata
+297,52,81,168,Casado,São Paulo,RJ,3567,5,Prata
+298,44,85,164,Casado,Porto Alegre,RJ,8516,2,Ouro
+299,42,88,163,Viúvo,São Paulo,RJ,2465,6,Diamante
+300,43,97,179,Casado,Belo Horizonte,RS,3891,3,Diamante
+301,46,75,153,Solteiro,Porto Alegre,SP,4573,6,Ouro
+302,32,64,156,Divorciado,São Paulo,SP,2618,5,Ouro
+303,32,67,172,Solteiro,Porto Alegre,MG,3724,5,Diamante
+304,41,90,167,Divorciado,São Paulo,RJ,3034,6,Ouro
+305,30,45,176,Viúvo,Porto Alegre,MG,4942,5,Ouro
+306,54,74,185,Divorciado,Porto Alegre,RJ,3227,4,Diamante
+307,53,76,187,Casado,Rio de Janeiro,MG,2350,3,Diamante
+308,30,72,178,Viúvo,Porto Alegre,MG,7956,5,Ouro
+309,17,74,184,Solteiro,Belo Horizonte,RJ,3262,5,Prata
+310,34,82,185,Viúvo,Porto Alegre,SP,7759,8,Ouro
+311,26,71,171,Casado,Rio de Janeiro,RS,6885,5,Ouro
+312,44,92,181,Divorciado,São Paulo,MG,3985,8,Diamante
+313,37,75,185,Casado,Rio de Janeiro,RS,5329,7,Prata
+314,26,66,164,Casado,Porto Alegre,RJ,3503,5,Ouro
+315,46,65,177,Casado,Belo Horizonte,MG,4465,4,Ouro
+316,26,75,185,Casado,Porto Alegre,RJ,7462,7,Diamante
+317,45,53,182,Casado,Porto Alegre,RS,3287,5,Ouro
+318,29,55,177,Divorciado,Porto Alegre,SP,1460,5,Prata
+319,53,92,163,Divorciado,Rio de Janeiro,SP,6239,3,Ouro
+320,44,77,168,Casado,Porto Alegre,MG,6399,5,Diamante
+321,48,66,168,Solteiro,Belo Horizonte,MG,4250,7,Bronze
+322,25,78,171,Casado,Belo Horizonte,MG,5764,3,Bronze
+323,28,47,183,Divorciado,Belo Horizonte,MG,3641,1,Diamante
+324,49,44,185,Solteiro,Rio de Janeiro,RJ,6957,4,Diamante
+325,35,96,157,Casado,Porto Alegre,RS,2844,6,Ouro
+326,58,56,181,Casado,Belo Horizonte,MG,7202,7,Prata
+327,44,81,181,Solteiro,Belo Horizonte,MG,7160,6,Diamante
+328,37,57,184,Casado,Rio de Janeiro,RJ,6154,5,Bronze
+329,56,57,156,Viúvo,São Paulo,RJ,3301,3,Prata
+330,32,75,154,Divorciado,Rio de Janeiro,RJ,4186,4,Prata
+331,45,80,177,Casado,Rio de Janeiro,RJ,4380,5,Prata
+332,47,85,171,Divorciado,São Paulo,MG,3495,5,Diamante
+333,40,78,185,Casado,Porto Alegre,SP,4197,5,Diamante
+334,43,86,185,Solteiro,São Paulo,MG,3277,7,Prata
+335,42,78,160,Viúvo,Belo Horizonte,RS,5296,4,Diamante
+336,38,61,170,Solteiro,São Paulo,RS,6031,4,Prata
+337,41,66,178,Viúvo,Porto Alegre,RJ,2920,4,Bronze
+338,42,77,187,Solteiro,São Paulo,RS,8322,3,Bronze
+339,24,71,149,Divorciado,Rio de Janeiro,SP,6741,4,Prata
+340,36,93,180,Divorciado,São Paulo,SP,6611,2,Prata
+341,42,70,159,Viúvo,Rio de Janeiro,RJ,1356,5,Ouro
+342,57,59,194,Solteiro,Porto Alegre,RS,6071,6,Diamante
+343,35,47,169,Divorciado,Porto Alegre,RS,4152,8,Bronze
+344,42,45,173,Divorciado,São Paulo,RS,6933,4,Prata
+345,42,55,174,Solteiro,Rio de Janeiro,MG,2828,3,Bronze
+346,23,71,146,Casado,São Paulo,MG,3257,6,Diamante
+347,32,69,148,Casado,São Paulo,SP,7981,6,Prata
+348,45,65,183,Solteiro,Belo Horizonte,SP,3909,3,Prata
+349,45,35,170,Viúvo,São Paulo,MG,4746,5,Prata
+350,37,73,195,Casado,Porto Alegre,SP,5052,5,Prata
+351,34,81,174,Solteiro,São Paulo,RJ,3117,8,Ouro
+352,25,76,171,Viúvo,Porto Alegre,RJ,6918,5,Prata
+353,37,68,170,Viúvo,Belo Horizonte,SP,5272,5,Prata
+354,46,66,166,Solteiro,São Paulo,RJ,4084,2,Bronze
+355,35,60,178,Viúvo,Rio de Janeiro,RS,7744,5,Bronze
+356,51,56,183,Divorciado,São Paulo,MG,6581,4,Ouro
+357,18,52,178,Divorciado,Porto Alegre,RJ,6057,6,Bronze
+358,36,40,157,Solteiro,São Paulo,RS,6861,6,Bronze
+359,37,63,160,Divorciado,Belo Horizonte,SP,4905,9,Prata
+360,52,68,172,Divorciado,Porto Alegre,RS,6478,2,Prata
+361,53,48,184,Viúvo,São Paulo,SP,4407,5,Prata
+362,32,102,169,Solteiro,São Paulo,SP,4599,7,Prata
+363,43,56,157,Divorciado,São Paulo,RS,5824,6,Prata
+364,33,76,164,Casado,Porto Alegre,RJ,2059,1,Bronze
+365,47,85,167,Viúvo,Porto Alegre,MG,8804,5,Prata
+366,42,51,176,Divorciado,São Paulo,RS,6095,6,Bronze
+367,57,92,166,Divorciado,São Paulo,MG,5672,5,Bronze
+368,39,58,185,Casado,Porto Alegre,RJ,3027,4,Prata
+369,36,74,169,Solteiro,São Paulo,MG,2978,6,Diamante
+370,43,61,163,Divorciado,Rio de Janeiro,SP,4845,4,Ouro
+371,46,65,176,Divorciado,Belo Horizonte,RJ,6652,6,Prata
+372,22,85,174,Divorciado,Porto Alegre,MG,3765,7,Bronze
+373,57,57,160,Divorciado,São Paulo,RJ,7780,8,Prata
+374,42,66,174,Viúvo,Rio de Janeiro,RS,3987,4,Diamante
+375,41,58,173,Divorciado,Belo Horizonte,MG,8673,0,Ouro
+376,42,70,181,Viúvo,Belo Horizonte,RJ,6714,6,Bronze
+377,35,54,154,Viúvo,São Paulo,RS,2405,4,Ouro
+378,40,76,150,Divorciado,Porto Alegre,SP,2960,2,Diamante
+379,47,87,178,Solteiro,Porto Alegre,RJ,7508,5,Bronze
+380,41,81,169,Divorciado,Belo Horizonte,RS,3792,3,Bronze
+381,34,53,171,Solteiro,São Paulo,RS,6059,5,Ouro
+382,40,81,179,Solteiro,Belo Horizonte,SP,3596,5,Ouro
+383,51,50,156,Viúvo,Rio de Janeiro,RJ,5046,4,Diamante
+384,12,27,169,Viúvo,Belo Horizonte,RJ,5100,3,Prata
+385,31,63,166,Divorciado,Rio de Janeiro,SP,6742,2,Diamante
+386,28,59,161,Viúvo,Rio de Janeiro,SP,6630,8,Diamante
+387,41,69,165,Divorciado,Rio de Janeiro,MG,1425,5,Diamante
+388,36,88,166,Casado,Rio de Janeiro,SP,2656,2,Prata
+389,39,64,178,Solteiro,Porto Alegre,RJ,2230,3,Bronze
+390,47,60,159,Viúvo,São Paulo,SP,3280,7,Diamante
+391,47,83,179,Viúvo,Porto Alegre,SP,4811,4,Prata
+392,44,63,167,Divorciado,Porto Alegre,RJ,5738,8,Diamante
+393,52,49,166,Casado,Porto Alegre,MG,6898,1,Prata
+394,43,78,178,Divorciado,São Paulo,RJ,5123,7,Ouro
+395,38,53,185,Viúvo,Porto Alegre,MG,3268,9,Prata
+396,25,67,168,Casado,São Paulo,RJ,5078,1,Ouro
+397,54,84,185,Solteiro,Belo Horizonte,MG,3122,6,Prata
+398,45,70,190,Solteiro,Belo Horizonte,RS,803,6,Prata
+399,42,73,173,Divorciado,Porto Alegre,RS,8008,5,Ouro
+400,35,80,165,Viúvo,Belo Horizonte,MG,7093,6,Prata
+401,33,60,163,Divorciado,Porto Alegre,MG,6501,3,Prata
+402,30,66,172,Viúvo,Belo Horizonte,RJ,4522,2,Bronze
+403,34,69,185,Divorciado,Rio de Janeiro,MG,5285,1,Bronze
+404,56,79,177,Casado,Rio de Janeiro,RS,3925,6,Prata
+405,24,71,178,Viúvo,Porto Alegre,MG,4130,5,Diamante
+406,46,70,170,Divorciado,Belo Horizonte,RS,3787,8,Ouro
+407,35,80,185,Viúvo,Belo Horizonte,RJ,4221,6,Diamante
+408,35,65,190,Casado,Porto Alegre,MG,3861,3,Prata
+409,26,67,168,Viúvo,Porto Alegre,RS,7513,2,Prata
+410,46,76,167,Casado,São Paulo,SP,5140,4,Diamante
+411,28,100,187,Casado,São Paulo,SP,4505,5,Bronze
+412,30,86,179,Viúvo,Porto Alegre,RJ,1149,3,Prata
+413,43,63,170,Divorciado,Porto Alegre,MG,9627,5,Prata
+414,62,63,169,Solteiro,Belo Horizonte,RS,5339,6,Bronze
+415,37,82,163,Solteiro,Porto Alegre,RS,3440,2,Prata
+416,35,74,178,Divorciado,Rio de Janeiro,MG,7567,3,Ouro
+417,25,77,161,Divorciado,Rio de Janeiro,RJ,3628,6,Bronze
+418,36,44,167,Casado,Belo Horizonte,RJ,3339,5,Diamante
+419,30,47,174,Viúvo,São Paulo,RS,2329,4,Ouro
+420,29,67,178,Casado,São Paulo,RJ,4435,7,Ouro
+421,41,84,172,Casado,São Paulo,SP,3293,4,Diamante
+422,57,67,187,Casado,Rio de Janeiro,RJ,4114,6,Prata
+423,41,79,171,Viúvo,Rio de Janeiro,RS,4419,3,Diamante
+424,34,79,174,Casado,Rio de Janeiro,RJ,8989,5,Prata
+425,45,78,190,Solteiro,Belo Horizonte,RJ,8070,7,Bronze
+426,46,72,193,Casado,São Paulo,RS,5113,4,Diamante
+427,36,78,171,Casado,Rio de Janeiro,RS,3179,4,Bronze
+428,34,60,164,Viúvo,Rio de Janeiro,RS,2512,8,Bronze
+429,32,96,174,Casado,Porto Alegre,RJ,1376,5,Ouro
+430,32,55,167,Casado,Porto Alegre,SP,4779,3,Ouro
+431,42,74,169,Divorciado,Porto Alegre,RJ,5927,11,Diamante
+432,53,65,172,Casado,Porto Alegre,RJ,8301,3,Diamante
+433,50,58,183,Casado,Belo Horizonte,RJ,6009,7,Ouro
+434,42,52,149,Solteiro,Belo Horizonte,RS,5040,7,Bronze
+435,34,47,185,Divorciado,Belo Horizonte,SP,5626,5,Ouro
+436,58,60,165,Divorciado,São Paulo,MG,5967,5,Ouro
+437,34,38,183,Divorciado,São Paulo,SP,6106,5,Prata
+438,42,86,149,Casado,São Paulo,RJ,4960,5,Bronze
+439,47,75,156,Casado,Rio de Janeiro,SP,5281,5,Ouro
+440,31,96,150,Viúvo,Rio de Janeiro,SP,2519,2,Ouro
+441,25,75,170,Casado,São Paulo,MG,4544,9,Prata
+442,55,93,174,Casado,Belo Horizonte,MG,6433,4,Diamante
+443,43,89,177,Solteiro,São Paulo,RJ,4573,4,Ouro
+444,32,46,169,Solteiro,Belo Horizonte,SP,6378,4,Bronze
+445,48,60,160,Casado,Porto Alegre,MG,2328,7,Bronze
+446,41,75,178,Divorciado,Porto Alegre,RS,5627,6,Bronze
+447,47,46,186,Casado,Belo Horizonte,MG,5421,3,Diamante
+448,19,92,170,Solteiro,São Paulo,SP,3883,8,Diamante
+449,40,64,166,Divorciado,Belo Horizonte,RJ,6196,4,Diamante
+450,34,76,171,Solteiro,Porto Alegre,RS,-307,4,Bronze
+451,45,93,171,Divorciado,Porto Alegre,RS,5415,7,Prata
+452,47,62,154,Casado,Belo Horizonte,RS,2924,5,Bronze
+453,39,37,164,Divorciado,Belo Horizonte,RS,5908,4,Diamante
+454,47,96,176,Divorciado,São Paulo,MG,4773,0,Bronze
+455,49,55,181,Casado,São Paulo,RS,6948,6,Prata
+456,36,61,167,Casado,Rio de Janeiro,SP,3299,3,Diamante
+457,34,75,169,Divorciado,Rio de Janeiro,RS,6934,7,Ouro
+458,28,70,165,Casado,Rio de Janeiro,RS,6717,6,Diamante
+459,26,86,150,Casado,Rio de Janeiro,MG,5545,6,Ouro
+460,44,70,174,Divorciado,Belo Horizonte,RS,3333,0,Bronze
+461,35,73,152,Casado,Rio de Janeiro,RJ,11653,7,Diamante
+462,32,82,176,Casado,Belo Horizonte,RJ,5267,5,Prata
+463,29,80,179,Divorciado,Rio de Janeiro,MG,2842,6,Prata
+464,35,63,180,Casado,Porto Alegre,SP,6414,7,Ouro
+465,22,50,163,Viúvo,Rio de Janeiro,RJ,5384,4,Ouro
+466,52,66,178,Solteiro,Belo Horizonte,RS,2603,7,Bronze
+467,34,87,185,Solteiro,Belo Horizonte,MG,6979,5,Bronze
+468,41,54,165,Solteiro,Porto Alegre,RS,374,1,Prata
+469,41,93,166,Viúvo,Porto Alegre,MG,4040,6,Diamante
+470,34,64,185,Solteiro,São Paulo,RS,6661,7,Bronze
+471,48,95,169,Casado,São Paulo,RS,2475,5,Bronze
+472,46,76,171,Divorciado,Belo Horizonte,RJ,8248,5,Ouro
+473,35,82,178,Solteiro,Porto Alegre,MG,5181,6,Prata
+474,27,67,185,Solteiro,São Paulo,SP,6304,6,Bronze
+475,33,87,165,Viúvo,São Paulo,SP,3289,8,Diamante
+476,66,71,180,Viúvo,Belo Horizonte,SP,7977,4,Bronze
+477,24,90,173,Solteiro,Rio de Janeiro,MG,7108,1,Bronze
+478,46,67,169,Viúvo,São Paulo,MG,5946,7,Diamante
+479,61,74,170,Solteiro,Belo Horizonte,RJ,4058,4,Diamante
+480,45,64,194,Solteiro,São Paulo,MG,3462,4,Diamante
+481,47,74,173,Divorciado,Rio de Janeiro,RS,7228,4,Bronze
+482,47,72,190,Casado,Rio de Janeiro,RJ,6054,2,Ouro
+483,38,55,178,Casado,Rio de Janeiro,RS,7427,3,Ouro
+484,68,48,185,Casado,Porto Alegre,RJ,4005,6,Prata
+485,48,70,192,Divorciado,São Paulo,RS,4472,6,Ouro
+486,37,56,194,Solteiro,Rio de Janeiro,RJ,2233,6,Diamante
+487,47,65,166,Casado,Belo Horizonte,RS,2093,3,Ouro
+488,28,62,171,Viúvo,Belo Horizonte,MG,3561,1,Bronze
+489,32,70,180,Divorciado,Belo Horizonte,SP,4708,5,Ouro
+490,46,58,173,Divorciado,Rio de Janeiro,RJ,5579,5,Ouro
+491,45,59,167,Divorciado,Belo Horizonte,RS,3338,6,Diamante
+492,34,64,156,Divorciado,Porto Alegre,MG,6943,4,Diamante
+493,35,86,171,Casado,Porto Alegre,SP,11853,7,Ouro
+494,53,58,178,Casado,Rio de Janeiro,SP,6310,3,Ouro
+495,38,63,174,Casado,São Paulo,RJ,3046,2,Ouro
+496,41,80,163,Viúvo,Belo Horizonte,RJ,5201,5,Ouro
+497,48,81,169,Divorciado,Porto Alegre,MG,8629,7,Bronze
+498,36,57,188,Solteiro,São Paulo,RS,7598,1,Prata
+499,42,72,166,Solteiro,Porto Alegre,RS,3852,4,Bronze
+500,23,66,168,Viúvo,Rio de Janeiro,MG,2054,4,Bronze
