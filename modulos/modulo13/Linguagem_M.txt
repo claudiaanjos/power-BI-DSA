@@ -1,0 +1,197 @@
+# Lab 5- Engenharia de Atributos com Linguagem M no Power BI
+
+
+//Limpeza de Dados com Linguagem M no Power BI
+
+let
+    Fonte = Csv.Document(File.Contents("coloque_aqui_o_caminho_do_arquivo_na_sua_maquina"),[Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Cliente", type text}, {"Idade", type text}, {"Peso", Int64.Type}, {"Altura", Int64.Type}, {"Estado Civil", type text}, {"Estado", type text}, {"Limite de Credito", Int64.Type}, {"Valor Desconto", Int64.Type}, {"Valor Compra", Int64.Type}, {"Tipo de Cliente", type text}}),
+    
+    // Substituindo valor
+    #"Valor Substituido" = Table.ReplaceValue(#"Tipo Alterado","?","45",Replacer.ReplaceText,{"Idade"})
+in
+    #"Valor Substituido"
+
+
+// Removendo Coluna com Linguagem M no Power BI
+
+let
+    Fonte = Csv.Document(File.Contents("coloque_aqui_o_caminho_do_arquivo_na_sua_maquina"),[Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Cliente", type text}, {"Idade", type text}, {"Peso", Int64.Type}, {"Altura", Int64.Type}, {"Estado Civil", type text}, {"Estado", type text}, {"Limite de Credito", Int64.Type}, {"Valor Desconto", Int64.Type}, {"Valor Compra", Int64.Type}, {"Tipo de Cliente", type text}}),
+    
+    // Substituindo valor
+    #"Valor Substituido" = Table.ReplaceValue(#"Tipo Alterado","?","45",Replacer.ReplaceText,{"Idade"}),
+
+    // Removendo coluna
+    #"Coluna Removida" = Table.RemoveColumns(#"Valor Substituido",{"Estado Civil"})
+in
+    #"Coluna Removida"
+
+
+// Adicionando Nova Coluna com Linguagem M no Power BI
+
+let
+    Fonte = Csv.Document(File.Contents("coloque_aqui_o_caminho_do_arquivo_na_sua_maquina"),[Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Cliente", type text}, {"Idade", type text}, {"Peso", Int64.Type}, {"Altura", Int64.Type}, {"Estado Civil", type text}, {"Estado", type text}, {"Limite de Credito", Int64.Type}, {"Valor Desconto", Int64.Type}, {"Valor Compra", Int64.Type}, {"Tipo de Cliente", type text}}),
+    
+    // Substituindo valor
+    #"Valor Substituido" = Table.ReplaceValue(#"Tipo Alterado","?","45",Replacer.ReplaceText,{"Idade"}),
+
+    // Removendo coluna
+    #"Coluna Removida" = Table.RemoveColumns(#"Valor Substituido",{"Estado Civil"}),
+
+    // Adicionando Coluna
+    #"Coluna Adicionada" = Table.AddColumn(#"Coluna Removida", "Valor Final", each [Valor Compra] - [Valor Desconto])
+in
+    #"Coluna Adicionada"
+
+
+// Dividindo Coluna com Linguagem M no Power BI
+
+let
+    Fonte = Csv.Document(File.Contents("coloque_aqui_o_caminho_do_arquivo_na_sua_maquina"),[Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Cliente", type text}, {"Idade", type text}, {"Peso", Int64.Type}, {"Altura", Int64.Type}, {"Estado Civil", type text}, {"Estado", type text}, {"Limite de Credito", Int64.Type}, {"Valor Desconto", Int64.Type}, {"Valor Compra", Int64.Type}, {"Tipo de Cliente", type text}}),
+    
+    // Substituindo valor
+    #"Valor Substituido" = Table.ReplaceValue(#"Tipo Alterado","?","45",Replacer.ReplaceText,{"Idade"}),
+
+    // Removendo coluna
+    #"Coluna Removida" = Table.RemoveColumns(#"Valor Substituido",{"Estado Civil"}),
+
+    // Adicionando Coluna
+    #"Coluna Adicionada" = Table.AddColumn(#"Coluna Removida", "Valor Final", each [Valor Compra] - [Valor Desconto]),
+
+    // Dividindo coluna
+    #"Dividir Coluna pela Posição" = Table.SplitColumn(#"Coluna Adicionada", "ID_Cliente", Splitter.SplitTextByPositions({0, 4}, false), {"ID_Cliente.1", "ID_Cliente.2"}),
+    #"Coluna Dividida" = Table.TransformColumnTypes(#"Dividir Coluna pela Posição",{{"ID_Cliente.1", type text}, {"ID_Cliente.2", Int64.Type}})
+in
+    #"Coluna Dividida"
+
+
+// Ajustando Nome de Coluna com Linguagem M no Power BI
+
+let
+    Fonte = Csv.Document(File.Contents("coloque_aqui_o_caminho_do_arquivo_na_sua_maquina"),[Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Cliente", type text}, {"Idade", type text}, {"Peso", Int64.Type}, {"Altura", Int64.Type}, {"Estado Civil", type text}, {"Estado", type text}, {"Limite de Credito", Int64.Type}, {"Valor Desconto", Int64.Type}, {"Valor Compra", Int64.Type}, {"Tipo de Cliente", type text}}),
+    
+    // Substituindo valor
+    #"Valor Substituido" = Table.ReplaceValue(#"Tipo Alterado","?","45",Replacer.ReplaceText,{"Idade"}),
+
+    // Removendo coluna
+    #"Coluna Removida" = Table.RemoveColumns(#"Valor Substituido",{"Estado Civil"}),
+
+    // Adicionando Coluna
+    #"Coluna Adicionada" = Table.AddColumn(#"Coluna Removida", "Valor Final", each [Valor Compra] - [Valor Desconto]),
+
+    // Dividindo coluna
+    #"Dividir Coluna pela Posição" = Table.SplitColumn(#"Coluna Adicionada", "ID_Cliente", Splitter.SplitTextByPositions({0, 4}, false), {"ID_Cliente.1", "ID_Cliente.2"}),
+    #"Coluna Dividida" = Table.TransformColumnTypes(#"Dividir Coluna pela Posição",{{"ID_Cliente.1", type text}, {"ID_Cliente.2", Int64.Type}}),
+
+    // Ajustando nome de coluna
+    #"Colunas Renomeadas" = Table.RenameColumns(#"Coluna Dividida",{{"ID_Cliente.1", "Codigo"}, {"ID_Cliente.2", "ID"}})
+in
+    #"Colunas Renomeadas"
+
+
+// Coluna Condicional com Linguagem M no Power BI
+
+let
+    Fonte = Csv.Document(File.Contents("coloque_aqui_o_caminho_do_arquivo_na_sua_maquina"),[Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Cliente", type text}, {"Idade", type text}, {"Peso", Int64.Type}, {"Altura", Int64.Type}, {"Estado Civil", type text}, {"Estado", type text}, {"Limite de Credito", Int64.Type}, {"Valor Desconto", Int64.Type}, {"Valor Compra", Int64.Type}, {"Tipo de Cliente", type text}}),
+    
+    // Substituindo valor
+    #"Valor Substituido" = Table.ReplaceValue(#"Tipo Alterado","?","45",Replacer.ReplaceText,{"Idade"}),
+
+    // Removendo coluna
+    #"Coluna Removida" = Table.RemoveColumns(#"Valor Substituido",{"Estado Civil"}),
+
+    // Adicionando Coluna
+    #"Coluna Adicionada" = Table.AddColumn(#"Coluna Removida", "Valor Final", each [Valor Compra] - [Valor Desconto]),
+
+    // Dividindo coluna
+    #"Dividir Coluna pela Posição" = Table.SplitColumn(#"Coluna Adicionada", "ID_Cliente", Splitter.SplitTextByPositions({0, 4}, false), {"ID_Cliente.1", "ID_Cliente.2"}),
+    #"Coluna Dividida" = Table.TransformColumnTypes(#"Dividir Coluna pela Posição",{{"ID_Cliente.1", type text}, {"ID_Cliente.2", Int64.Type}}),
+
+    // Ajustando nome de coluna
+    #"Colunas Renomeadas" = Table.RenameColumns(#"Coluna Dividida",{{"ID_Cliente.1", "Codigo"}, {"ID_Cliente.2", "ID"}}),
+    
+    // Coluna Condicional
+    #"Coluna Condicional Adicionada" = Table.AddColumn(#"Colunas Renomeadas", "% Desconto Especial", each if [Tipo de Cliente] = "Bronze" then 5 else if [Tipo de Cliente] = "Prata" then 10 else if [Tipo de Cliente] = "Ouro" then 15 else if [Tipo de Cliente] = "Diamante" then 20 else 0)
+in
+    #"Coluna Condicional Adicionada"
+
+
+// Ajustando a Escala dos Dados com Transformação Logarítmica com Linguagem M no Power BI
+
+let
+    Fonte = Csv.Document(File.Contents("coloque_aqui_o_caminho_do_arquivo_na_sua_maquina"),[Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Cliente", type text}, {"Idade", type text}, {"Peso", Int64.Type}, {"Altura", Int64.Type}, {"Estado Civil", type text}, {"Estado", type text}, {"Limite de Credito", Int64.Type}, {"Valor Desconto", Int64.Type}, {"Valor Compra", Int64.Type}, {"Tipo de Cliente", type text}}),
+    
+    // Substituindo valor
+    #"Valor Substituido" = Table.ReplaceValue(#"Tipo Alterado","?","45",Replacer.ReplaceText,{"Idade"}),
+
+    // Removendo coluna
+    #"Coluna Removida" = Table.RemoveColumns(#"Valor Substituido",{"Estado Civil"}),
+
+    // Adicionando coluna
+    #"Coluna Adicionada" = Table.AddColumn(#"Coluna Removida", "Valor Final", each [Valor Compra] - [Valor Desconto]),
+
+    // Dividindo coluna
+    #"Dividir Coluna pela Posição" = Table.SplitColumn(#"Coluna Adicionada", "ID_Cliente", Splitter.SplitTextByPositions({0, 4}, false), {"ID_Cliente.1", "ID_Cliente.2"}),
+    #"Coluna Dividida" = Table.TransformColumnTypes(#"Dividir Coluna pela Posição",{{"ID_Cliente.1", type text}, {"ID_Cliente.2", Int64.Type}}),
+
+    // Ajustando nome de coluna
+    #"Colunas Renomeadas" = Table.RenameColumns(#"Coluna Dividida",{{"ID_Cliente.1", "Codigo"}, {"ID_Cliente.2", "ID"}}),
+    
+    // Coluna condicional
+    #"Coluna Condicional Adicionada" = Table.AddColumn(#"Colunas Renomeadas", "% Desconto Especial", each if [Tipo de Cliente] = "Bronze" then 5 else if [Tipo de Cliente] = "Prata" then 10 else if [Tipo de Cliente] = "Ouro" then 15 else if [Tipo de Cliente] = "Diamante" then 20 else 0),
+    
+    // Ajustando a escala dos dados com Transformação Logarítmica
+    #"Logaritmo de Base 10 Calculado" = Table.TransformColumns(#"Coluna Condicional Adicionada",{{"Limite de Credito", Number.Log10, type number}})
+in
+    #"Logaritmo de Base 10 Calculado"
+
+
+// Versão final
+
+let
+    Fonte = Csv.Document(File.Contents("coloque_aqui_o_caminho_do_arquivo_na_sua_maquina"),[Delimiter=",", Columns=10, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"ID_Cliente", type text}, {"Idade", type text}, {"Peso", Int64.Type}, {"Altura", Int64.Type}, {"Estado Civil", type text}, {"Estado", type text}, {"Limite de Credito", Int64.Type}, {"Valor Desconto", Int64.Type}, {"Valor Compra", Int64.Type}, {"Tipo de Cliente", type text}}),
+    
+    // Substituindo valor
+    #"Valor Substituido" = Table.ReplaceValue(#"Tipo Alterado","?","45",Replacer.ReplaceText,{"Idade"}),
+
+    // Ajustando o tipo da variável
+    #"Tipo Ajustado" = Table.TransformColumnTypes(#"Valor Substituido",{{"Idade", Int64.Type}}),
+
+    // Removendo coluna
+    #"Coluna Removida" = Table.RemoveColumns(#"Tipo Ajustado",{"Estado Civil"}),
+
+    // Adicionando Coluna
+    #"Coluna Adicionada" = Table.AddColumn(#"Coluna Removida", "Valor Final", each [Valor Compra] - [Valor Desconto]),
+
+    // Dividindo coluna
+    #"Dividir Coluna pela Posição" = Table.SplitColumn(#"Coluna Adicionada", "ID_Cliente", Splitter.SplitTextByPositions({0, 4}, false), {"ID_Cliente.1", "ID_Cliente.2"}),
+    #"Coluna Dividida" = Table.TransformColumnTypes(#"Dividir Coluna pela Posição",{{"ID_Cliente.1", type text}, {"ID_Cliente.2", Int64.Type}}),
+
+    // Ajustando nome de coluna
+    #"Colunas Renomeadas" = Table.RenameColumns(#"Coluna Dividida",{{"ID_Cliente.1", "Codigo"}, {"ID_Cliente.2", "ID"}}),
+    
+    // Coluna Condicional
+    #"Coluna Condicional Adicionada" = Table.AddColumn(#"Colunas Renomeadas", "% Desconto Especial", each if [Tipo de Cliente] = "Bronze" then 5 else if [Tipo de Cliente] = "Prata" then 10 else if [Tipo de Cliente] = "Ouro" then 15 else if [Tipo de Cliente] = "Diamante" then 20 else 0),
+    
+    // Ajustando a Escala da Coluna com Transformação Logarítmica
+    #"Logaritmo de Base 10 Calculado" = Table.TransformColumns(#"Coluna Condicional Adicionada",{{"Limite de Credito", Number.Log10, type number}})
+in
+    #"Logaritmo de Base 10 Calculado"
+
+
+
