@@ -1,4 +1,4 @@
-# Microsoft Power BI Para Business Intelligence e Data Science
+# Power BI Para Business Intelligence e Data Science
 
 ###   Descrição
 
