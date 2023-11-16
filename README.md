@@ -1,5 +1,9 @@
 # Power BI Para Business Intelligence e Data Science
 
+<p align="center">
+<img src="https://img.shields.io/static/v1?label=Status&message=FINALIZADO&color=blue&style=for-the-badge"/>
+</p>
+
 ###   Descrição
 
 No curso [Microsoft Power BI Para Business Intelligence e Data Science](https://www.datascienceacademy.com.br/course/fundamentos-de-linguagem-python-para-analise-de-dados-e-data-science) da Data Science Academy você terá a chance de aprender não apenas a utilizar o Microsoft Power BI, mas aplicar técnicas de Data Science para gerar modelos preditivos e extrair insights para a tomada de decisões, integrando o Power BI com Linguagem R e Python.
