@@ -29,7 +29,7 @@ Conteúdo:
 - Módulo 15: SQL Analytics;
 - Módulo 16: Machine Learning e Power BI para Segmentação de Clientes;
 - Módulo 17: Machine Learning e Power BI para Detecção de Anomalias;
-- Módulo 18: Inteligência Artificail e Análise de Séries Temporais com Power BI;
+- Módulo 18: Inteligência Artificial e Análise de Séries Temporais com Power BI;
 - Módulo 19: Estudo de Caso - Transformação Digital com Microsoft Power Platform;
 - Módulo 20: Avaliação.
 
